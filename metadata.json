@@ -1,0 +1,6 @@
+{
+  "name": "Pixel Art Tower Defense",
+  "description": "An advanced 2D Pixel Art Tower Defense game with dual lanes, roguelike drafts, deep elemental masteries, summonable allies, interactive magic spells, and global leaderboards.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

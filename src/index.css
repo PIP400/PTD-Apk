@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Fira Code", ui-monospace, SFMono-Regular, monospace;
+  --font-mono: "Fira Code", ui-monospace, SFMono-Regular, monospace;
+}
+
+body {
+  margin: 0;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  background-color: #030712; /* Neutral-950 */
+}
+
+/* Custom terminal scrollbars */
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: #022c22; /* very dark green */
+}
+
+::-webkit-scrollbar-thumb {
+  background: #047857; /* emerald-700 */
+  border-radius: 2px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #10b981; /* emerald-500 */
+}
